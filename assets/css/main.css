@@ -1,0 +1,533 @@
+header {
+    background-image: url("../img/bar_dark.1ee23619.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: 110% 110%;
+    background-repeat: no-repeat;
+
+    -webkit-transition: all 2s ease-in;
+    -moz-transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    -ms-transition: all 2s ease-in;
+    transition: all 2s ease-in;
+}
+
+.headerChange {
+    background-image: url("../img/bar_light.f6e48e8b.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center top;
+    background-size: 110% 110%;
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+    z-index: 1;
+}
+
+.buttonOff {
+    background-image: url("../img/icon/on.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    top: -50px;
+    cursor: pointer;
+}
+
+.buttonOn {
+    background-image: url("../img/icon/off.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    top: -50px;
+    cursor: pointer;
+}
+
+.changeBgB {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-top: -70px;
+}
+
+.navPlace {
+    width: 100%;
+    text-align: right;
+    justify-content: right;
+}
+
+.openNavLine {
+    transition: all 0.3s ease 0s;
+    border: 1px solid rgb(59, 59, 59) !important;
+    background-color: #0c080b !important;
+    border-radius: 14px !important;
+}
+
+.connect {
+    background-color: red;
+    color: white;
+    position: relative;
+    appearance: none;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    background: rgb(210, 64, 52);
+    overflow: hidden;
+    transition: all 2s ease 0s;
+    outline: none;
+    margin-top: 5px;
+}
+
+.connect:hover {
+    background-color: rgb(126, 40, 32);
+}
+.nav-link {
+    font-size: 14px !important;
+    font-weight: 200;
+}
+
+.dropdown-item {
+    text-align: center !important;
+    font-size: 14px;
+    transition-duration: 3s;
+}
+
+.dropdown-item:hover {
+    background-color: #0c080b !important;
+}
+.line {
+    width: 0px;
+    background-color: red !important;
+    height: 3px !important;
+    opacity: 1;
+    margin: 0px !important;
+    border-radius: 25px;
+}
+
+.hrTransp {
+    background-color: transparent;
+}
+
+.navbar-nav {
+    padding-bottom: 0px !important;
+}
+
+.goDwonButton {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    width: 84px !important;
+    height: 84px;
+    line-height: 5.2rem;
+    cursor: pointer;
+}
+
+.imageText {
+    background-color: #111117;
+    color: white !important;
+    padding: 100px 0px;
+    z-index: 1;
+}
+
+.imageText p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.imageText span {
+    font-weight: 700;
+}
+
+.imageText .imageTextHood {
+    font-size: 46px;
+    font-weight: 800;
+    text-align: start;
+}
+
+.image-gallery {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.imageIcon {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.soldOut {
+    padding: 100px 0px;
+    background-color: #080808;
+    z-index: 1;
+}
+
+.soldOutTextArea {
+    text-align: center;
+}
+
+.soldOutTextArea p {
+    color: white;
+}
+
+.soldOutTextArea p:first-child {
+    font-size: 46px;
+    color: white;
+}
+
+.soldOutTextArea p:last-child {
+    font-size: 36px;
+    color: white;
+}
+
+.littleText {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+.increaseReduce {
+}
+
+.increaseReduce input:first-child {
+    font-size: 42px;
+    color: white;
+}
+
+.increaseReduce input:nth-child(2) {
+    width: 80px;
+    background-color: #080808;
+    border: 0px;
+    font-size: 36px;
+    color: grey;
+    text-align: center;
+}
+
+.increaseReduce input:nth-child(3) {
+    font-size: 42px !important;
+    color: white;
+}
+
+.sliderHood {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #baf772;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-indent: 0;
+    text-transform: uppercase;
+}
+
+.sliderText {
+    width: 750px;
+    margin-bottom: 50;
+    color: #ebffe0;
+    font-size: 3em;
+    line-height: 120%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sliderOWL {
+    background-color: #210e3f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.t-webkit-center {
+    text-align: -webkit-center;
+}
+
+.popUpHood {
+    font-size: 46px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.faq {
+    background-color: #111117;
+    padding: 100px 0px;
+    z-index: 1;
+    margin-bottom: 250px;
+    box-shadow: -1px 1px 20px 0px black;
+}
+
+.questionLine {
+    padding: 10px 0px;
+    border-bottom: 1px solid white;
+}
+
+.questionLine a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.popUpText {
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
+
+.questionLine a:hover {
+    text-decoration: none;
+    color: rgb(189, 187, 187);
+}
+
+.teknoRoyal {
+    background-color: #080808;
+    padding: 100px 0px;
+    z-index: 1;
+}
+
+.teknoRoyal .tekRoHood {
+    color: white;
+    font-size: 46px;
+}
+
+.liProperty {
+    color: white !important;
+    font-size: 16px;
+}
+
+.teknoRoyal ol {
+    list-style-type: disc;
+}
+
+.roadMap {
+    background-color: #080808;
+    padding: 100px 0px;
+    background-image: url("../img/36.png");
+    background-repeat: no-repeat;
+    background-position: center 50px;
+    background-size: 100% 300px;
+    z-index: 1;
+}
+
+.roadMap .roadMApSteps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.roadMap .roadMApSteps .roadMapArea {
+    width: 200px;
+    height: auto;
+}
+
+.roadMap .roadMApSteps .roadMapArea img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 65px;
+}
+
+.roadMap .roadMApSteps .roadMapArea p {
+    font-size: 20px;
+    color: white;
+}
+
+.roadMap .roadMApSteps .roadMapArea ul {
+    padding: 0px;
+}
+
+.roadMap .roadMApSteps .roadMapArea ul li {
+    list-style-type: disc;
+    font-size: 14px;
+    color: white;
+}
+
+.pictureHood {
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+}
+
+.skyBackground {
+    background-color: white;
+    width: 420px;
+    height: 314px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.skyBackground img {
+    max-width: 400px;
+    max-height: 274px;
+}
+
+.iconArea {
+    padding: 50px 0px;
+    background-color: #080808;
+    z-index: 1;
+}
+
+.iconHood {
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+}
+
+.iconText {
+    font-size: 22px;
+    color: white;
+}
+
+.iconCard {
+    cursor: pointer;
+    display: flex;
+    overflow: scroll;
+    width: 240px;
+    height: 260px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.iconImage {
+    width: 240px;
+    height: 260px;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.firstCard {
+    position: relative;
+    width: 240px;
+    height: 260px;
+}
+
+.iconCardHood {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    color: white;
+    font-weight: 800;
+}
+
+.iconcardDiv {
+    position: absolute;
+}
+
+.iconCardText {
+    font-size: 14px;
+}
+
+.iconCardtextArea {
+    width: 240px;
+    height: 260px;
+    border-radius: 0px 16px 16px 0px;
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    left: 240px;
+    top: 0px;
+}
+
+.iconCardHoodTwo {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+footer {
+    background-color: #282836;
+    padding: 30px 0px;
+    height: 250px;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    bottom: 0px;
+}
+
+footer .logoAreafooter {
+    text-align: center;
+}
+
+footer .logoAreafooter img {
+    width: 250px;
+    height: 100px;
+}
+
+.twitter {
+    width: 30px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.discort {
+    width: 30px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 20px;
+}
+
+footer p:first-child {
+    color: rgb(58, 157, 180);
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+footer p:last-child {
+    font-size: 12px;
+    color: white;
+}
+
+@media only screen and (max-width: 1199px) {
+    header {
+        background-size: cover;
+    }
+
+    .imageIcon {
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+    }
+
+    .imageText .imageTextHood {
+        font-size: 40px;
+    }
+
+    .imageText p {
+        font-size: 16px;
+    }
+
+    .soldOutTextArea p:first-child {
+        font-size: 40px;
+    }
+
+    .soldOutTextArea p:last-child {
+        font-size: 30px;
+    }
+
+    .roadMap .roadMApSteps .roadMapArea img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
